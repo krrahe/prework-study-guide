@@ -1,20 +1,7 @@
-.lesson {
-    width: 200px;
-    height: 100px;
-  }
-  
-.section-blue { color: red; background-color: purple;
-
-}
-  
-.container { background-color: black; color: teal;
-
+*{
+background-color: lightslategrey;
 }
 
-#section-1 { color: yellow;background-color: purple;
-
-}
-
-#section-6 { color: yellow;
-
+#html{
+background-color: lightcoral;
 }
