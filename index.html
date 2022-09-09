@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,19 +10,37 @@
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+
+      <img src="./assets/Very-Nice.jpg" alt="Very Nice." />
     </header>
     <main>
       <section class="card" id="html-section">
+<<<<<<< HEAD
         <h2>HTML</h2>
         <ul>
           <li>Enter your HTML notes here</li>
           <li> the head element contains information about the webpage</li>
           <li> the body element represents the visible content shown to the user.</li>
+=======
+        
+        <!-- HTML-->
+        <h2>HTML</h2>
+        <ul>
+      <li>  <strong>doctype</strong> It is a required preamble. In the mists of time, when HTML was young (around 1991/92), doctypes were meant to act as links to a set of rules that the HTML page had to follow to be considered good HTML, which could mean automatic error checking and other useful things. However these days, they don't do much and are basically just needed to make sure your document behaves correctly. That's all you need to know for now. </li>
+      <li> <strong>html element.</strong> This element wraps all the content on the entire page and is sometimes known as the root element. It also includes the lang attribute, setting the primary language of the document.</li>    
+      <li>  <strong>head element</strong> This element acts as a container for all the stuff you want to include on the HTML page that isn't the content you are showing to your page's viewers. This includes things like keywords and a page description that you want to appear in search results, CSS to style our content, character set declarations, and more.</li>
+      <li> <strong>Meta Charset</strong>  This element sets the character set your document should use to UTF-8 which includes most characters from the vast majority of written languages. Essentially, it can now handle any textual content you might put on it. There is no reason not to set this and it can help avoid some problems later on.</li>
+      <li> <strong>viewport element</strong> ensures the page renders at the width of viewport, preventing mobile browsers from rendering pages wider than the viewport and then shrinking them down.</li>
+      <li> <strong>title element</strong> This sets the title of your page, which is the title that appears in the browser tab the page is loaded in. It is also used to describe the page when you bookmark/favorite it.</li>
+      <li> <strong>body element</strong> This contains all the content that you want to show to web users when they visit your page, whether that's text, images, videos, games, playable audio tracks, or whatever else.</li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">"HTML Element"</a> </li>
+    
+>>>>>>> feature/add-html
         </ul>
       </section>
    
       <section class="card" id="css-section">
+<<<<<<< HEAD
         <h2>CSS</h2>
         <ul>
           <li>Enter your CSS notes here</li>
@@ -32,22 +51,79 @@
         <ul>
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+=======
+        <!--CSS-->
+        <h2>CSS</h2>
+        <ul>
+          <li><strong> Selector </strong> This is the HTML element name at the start of the ruleset. It defines the element(s) to be styled (in this example, < p > elements). To style a different element, change the selector. </li>
+     <li><strong>Declaration</strong>This is a single rule like color: red;. It specifies which of the element's properties you want to style.</li>
+     <li><strong>Properties</strong>These are ways in which you can style an HTML element. (In this example, color is a property of the < p > elements.) In CSS, you choose which properties you want to affect in the rule</li>
+     <li><strong>Property Value</strong>To the right of the property—after the colon—there is the property value. This chooses one out of many possible appearances for a given property. (For example, there are many color values in addition to red.)</li>
+    <br>
+     <ul>
+      
+  <li>Apart from the selector, each ruleset must be wrapped in curly braces. ({}) </li>
+  <li>Within each declaration, you must use a colon (:) to separate the property from its value or values.</li>
+  <li>  Within each ruleset, you must use a semicolon (;) to separate each declaration from the next one.</li>
+
+    </ul> 
+    </ul>
+        </section>
+   
+      <section class="card" id="git-section">
+       <!-- GIT-->
+        <h2>Git</h2>
+        <ul>
+          <li>git <strong>status</strong>: checks what branch we are currently on</li>
+          <li>git <strong>checkout -b branch-name</strong>: creates a new branch and switches to it</li>
+>>>>>>> feature/add-html
         <li></li>
         </ul>
 
       </section>
    
       <section class="card" id="javascript-section">
+<<<<<<< HEAD
         <h2>JavaScript</h2>
         <ul>
           <li>Enter your JavaScript notes here</li>
         </ul>
+=======
+        <!--JavaScript-->
+        <h2>JavaScript</h2>
+        <ul>
+          <li>Condition before ? starts a 'either or/ true false condition', two lines seperated by a :, if true first line runs if false the second </li>
+          <li> else if statements allow for more then two outcomes</li>
+          <li> if else statements are either true/false - two outcomes</li>  
+          <li>A switch statement behaves like an else if but with less syntax. use 'case' to define desired value and break to tell the computer to move to next block</li>      
+        <br>
+        <li> An IF statement checks a condtion and will execture a task if that condition evaluates to TRUE</li>
+        <li> The if keyword followed by a set of parentheses () which is followed by a code block, or block statement, indicated by a set of curly braces {}. </li>
+        <li>Inside the parentheses (), a condition is provided that evaluates to true or false </li>
+        <li>If the condition evaluates to true, the code inside the curly braces {} runs, or executes</li>
+        <li>If the condition evaluates to false, the block wont execute.</li>
+        <br>
+
+
+        <li>IF...ELSE statements make binary decissions and execture different code blocks based on a provided conditition, We can add more then one condition </li>
+        <li>Comparision operators compare two values </li>
+        <li> the logical and operator && or AND checks if both values are truthly</li>
+        <li> the logical operator || or "OR" checks if either provided expression is truthly</li>
+        <li> the bang operator ! switches the truthiness and falseiness of a value</li>
+        <li> </li>
+      </ul>
+
+>>>>>>> feature/add-html
       </section>
 
     </main>
 
     <footer>
+<<<<<<< HEAD
       <p>fist incorporated</p>
+=======
+      <p>To push or not to push that is the</p>
+>>>>>>> feature/add-html
     </footer>
   </body>
 </html>
